@@ -1,4 +1,3 @@
-<img src="https://r2cdn.perplexity.ai/pplx-full-logo-primary-dark%402x.png" style="height:64px;margin-right:32px"/>
 
 # GauravFlow — Modern To‑Do List Web App ✨✅
 
@@ -44,25 +43,11 @@ modern-todo-app/
 ├─ index.html        # Main UI and layout
 ├─ style.css         # Custom styles (light/dark themes, animations)
 ├─ app.js            # App logic (state, events, rendering)
-└─ assets/           # (optional) images or icons if added later
 ```
 
 
 ***
 
-## 🚀 Getting Started
-
-1. Clone the repository:
-git clone https://github.com/<your-username>/<your-repo>.git
-cd <your-repo>
-2. Open the app:
-    - Double-click index.html, or
-    - Start a simple local server:
-        - Python: python -m http.server 8080
-        - Node (http-server): npx http-server -p 8080
-3. Enjoy managing tasks with style! 😄
-
-***
 
 ## 🧠 How It Works
 
@@ -91,15 +76,6 @@ cd <your-repo>
 - Filters \& Search: Tabs for All/Pending/Completed/High Priority + search bar.
 - Task List: Reorder by drag-and-drop; click to edit inline; check to complete.
 - Footer: Bulk select, bulk complete/delete, export tasks.
-
-***
-
-## 🔒 Data Persistence
-
-- Default: In-memory (ideal for demos and GitHub Pages).
-- Optional upgrade: Replace internal store with localStorage for persistence across sessions:
-    - On load: tasks = JSON.parse(localStorage.getItem('tasks') || '[]')
-    - On change: localStorage.setItem('tasks', JSON.stringify(tasks))
 
 ***
 
@@ -143,28 +119,6 @@ cd <your-repo>
 
 ***
 
-## 🖌️ Design Notes
-
-- Gradient primary: \#667eea → \#764ba2 for accents and call-to-actions 🎨
-- Smooth transitions for hover, focus, and list updates
-- Accessible colors and ARIA labels for better usability ♿
-- Font Awesome icons for clarity and delight
-
-***
-
-## 🗺️ Roadmap
-
-- Subtasks and checklists
-- Due dates and reminders
-- LocalStorage/IndexedDB persistence
-- PWA support for offline and installable app
-- Import from JSON
-- Shareable public lists
-
-Have a suggestion? Open an issue — contributions are welcome! 🙌
-
-***
-
 ## 🐞 Troubleshooting
 
 - Tasks not saving? In the current version, data is in-memory only. Switch to localStorage for persistence.
@@ -173,34 +127,10 @@ Have a suggestion? Open an issue — contributions are welcome! 🙌
 
 ***
 
-## 🤝 Contributing
 
-1. Fork the repo
-2. Create a feature branch: git checkout -b feat/awesome-idea
-3. Commit changes: git commit -m "Add awesome idea"
-4. Push: git push origin feat/awesome-idea
-5. Open a Pull Request
-
-***
-
-## 📜 License
-
-This project is open-source under the MIT License. 🪪
-
-***
-
-## 💬 Credits
-
-Crafted with care for Gaurav ❤️
-Name inspiration: GauravFlow — smooth, focused, and productive! 🌊🧠
-
-***
-
-## 🔗 Badges (optional)
+## 🔗 Badges
 
 - Made with HTML -  CSS -  JavaScript 🧩
 - Bootstrap 5 Powered 💙
 - Responsive \& Accessible 📱♿
-
-If a ready-to-use README.md file is preferred, this entire content can be copied directly into README.md in the repository. Let me know if the app title should be replaced with another remix of “Gaurav” (e.g., GauDo, TaskGrav, Gauravity), and I’ll tailor the branding and screenshots accordingly. 😊
 
